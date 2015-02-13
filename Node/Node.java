@@ -7,6 +7,11 @@ public class Node {
 			this.data = data;
 		}
 		
+		public Node() {
+			next = null;
+			this.data = null;
+		}
+		
 		public Node getNext() {
 			return this.next;
 		}
